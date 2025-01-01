@@ -58,30 +58,30 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\FingerSoccerKit\C#-Assets\Scripts-C#\MoneyController.cs" />
-    <Compile Include="Assets\FingerSoccerKit\C#-Assets\Scripts-C#\MenuController.cs" />
+    <Compile Include="Assets\FingerSoccerKit\C#-Assets\Scripts-C#\FormationManager.cs" />
     <Compile Include="Assets\FingerSoccerKit\C#-Assets\Scripts-C#\ShopManager.cs" />
     <Compile Include="Assets\FingerSoccerKit\C#-Assets\Scripts-C#\ShopController.cs" />
-    <Compile Include="Assets\FingerSoccerKit\C#-Assets\Scripts-C#\playerColliderManager.cs" />
+    <Compile Include="Assets\FingerSoccerKit\C#-Assets\Scripts-C#\BallManager.cs" />
+    <Compile Include="Assets\FingerSoccerKit\C#-Assets\Scripts-C#\GlobalGameManager.cs" />
+    <Compile Include="Assets\FingerSoccerKit\C#-Assets\Scripts-C#\TournamentManager.cs" />
     <Compile Include="Assets\FingerSoccerKit\C#-Assets\Scripts-C#\mouseFollow.cs" />
     <Compile Include="Assets\FingerSoccerKit\C#-Assets\Scripts-C#\OpponentUnitController.cs" />
-    <Compile Include="Assets\FingerSoccerKit\C#-Assets\Scripts-C#\playerController.cs" />
-    <Compile Include="Assets\FingerSoccerKit\C#-Assets\Scripts-C#\GoalKeeperController.cs" />
-    <Compile Include="Assets\FingerSoccerKit\C#-Assets\Scripts-C#\PauseManager.cs" />
-    <Compile Include="Assets\FingerSoccerKit\C#-Assets\Scripts-C#\ShopItemProperties.cs" />
-    <Compile Include="Assets\FingerSoccerKit\C#-Assets\Scripts-C#\TournamentManager.cs" />
-    <Compile Include="Assets\FingerSoccerKit\C#-Assets\Scripts-C#\ConfigController.cs" />
-    <Compile Include="Assets\FingerSoccerKit\C#-Assets\Scripts-C#\FormationManager.cs" />
-    <Compile Include="Assets\FingerSoccerKit\C#-Assets\Scripts-C#\HeartBeatAnimationEffect.cs" />
-    <Compile Include="Assets\FingerSoccerKit\C#-Assets\Scripts-C#\GlobalGameManager.cs" />
-    <Compile Include="Assets\FingerSoccerKit\C#-Assets\Scripts-C#\BallManager.cs" />
     <Compile Include="Assets\FingerSoccerKit\C#-Assets\Scripts-C#\PenaltyController.cs" />
-    <Compile Include="Assets\FingerSoccerKit\C#-Assets\Scripts-C#\TeamsManager.cs" />
-    <Compile Include="Assets\FingerSoccerKit\C#-Assets\Scripts-C#\PlayerAI.cs" />
-    <Compile Include="Assets\FingerSoccerKit\C#-Assets\Scripts-C#\Rotator.cs" />
-    <Compile Include="Assets\FingerSoccerKit\C#-Assets\Scripts-C#\ScaleAnimator.cs" />
-    <Compile Include="Assets\FingerSoccerKit\C#-Assets\Scripts-C#\OpponentAI.cs" />
+    <Compile Include="Assets\FingerSoccerKit\C#-Assets\Scripts-C#\playerColliderManager.cs" />
+    <Compile Include="Assets\FingerSoccerKit\C#-Assets\Scripts-C#\ShopItemProperties.cs" />
+    <Compile Include="Assets\FingerSoccerKit\C#-Assets\Scripts-C#\MenuController.cs" />
+    <Compile Include="Assets\FingerSoccerKit\C#-Assets\Scripts-C#\ConfigController.cs" />
     <Compile Include="Assets\FingerSoccerKit\C#-Assets\Scripts-C#\CebianlanManager.cs" />
+    <Compile Include="Assets\FingerSoccerKit\C#-Assets\Scripts-C#\PauseManager.cs" />
+    <Compile Include="Assets\FingerSoccerKit\C#-Assets\Scripts-C#\playerController.cs" />
+    <Compile Include="Assets\FingerSoccerKit\C#-Assets\Scripts-C#\ScaleAnimator.cs" />
+    <Compile Include="Assets\FingerSoccerKit\C#-Assets\Scripts-C#\TeamsManager.cs" />
+    <Compile Include="Assets\FingerSoccerKit\C#-Assets\Scripts-C#\GoalKeeperController.cs" />
+    <Compile Include="Assets\FingerSoccerKit\C#-Assets\Scripts-C#\HeartBeatAnimationEffect.cs" />
+    <Compile Include="Assets\FingerSoccerKit\C#-Assets\Scripts-C#\MoneyController.cs" />
+    <Compile Include="Assets\FingerSoccerKit\C#-Assets\Scripts-C#\PlayerAI.cs" />
+    <Compile Include="Assets\FingerSoccerKit\C#-Assets\Scripts-C#\OpponentAI.cs" />
+    <Compile Include="Assets\FingerSoccerKit\C#-Assets\Scripts-C#\Rotator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -439,16 +439,16 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.44f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="ttsdk">
+      <HintPath>Assets\Plugins\ByteGame\com.bytedance.starksdk\ttsdk.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="ReportGeneratorMerged">
       <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="ttsdk">
-      <HintPath>Assets\Plugins\ByteGame\com.bytedance.starksdk\ttsdk.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Android.Types">
@@ -1041,6 +1041,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="com.bytedance.ttsdk-editor.csproj">
+      <Project>{DA575AF2-AC61-FC07-EE2C-47C00AC2C64B}</Project>
+      <Name>com.bytedance.ttsdk-editor</Name>
+    </ProjectReference>
     <ProjectReference Include="TTLitJson.csproj">
       <Project>{7ADDCD3C-37B8-6608-5277-64BBC3C1B566}</Project>
       <Name>TTLitJson</Name>
@@ -1048,10 +1052,6 @@
     <ProjectReference Include="TTWebGL.csproj">
       <Project>{3D6E717A-C235-28A2-3709-3B4DD4D4FA8E}</Project>
       <Name>TTWebGL</Name>
-    </ProjectReference>
-    <ProjectReference Include="com.bytedance.ttsdk-editor.csproj">
-      <Project>{DA575AF2-AC61-FC07-EE2C-47C00AC2C64B}</Project>
-      <Name>com.bytedance.ttsdk-editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class TournamentManager : MonoBehaviour {
 
@@ -144,7 +145,7 @@ public class TournamentManager : MonoBehaviour {
 		}
 
 		//set start button text
-		btnStartText.GetComponent<TextMesh>().text = "Start";
+		btnStartText.GetComponent<TextMeshPro>().text = "开始游戏";
 		btnStart.GetComponent<BoxCollider>().enabled = true;
 	}
 
@@ -182,10 +183,10 @@ public class TournamentManager : MonoBehaviour {
 
 		//set start button text
 		if(PlayerPrefs.GetInt("TorunamentMatchResult") == 1) {
-			btnStartText.GetComponent<TextMesh>().text = "Continue";
+			btnStartText.GetComponent<TextMeshPro>().text = "开始游戏";
 			btnStart.GetComponent<BoxCollider>().enabled = true;
 		} else {
-			btnStartText.GetComponent<TextMesh>().text = "Exit";
+			btnStartText.GetComponent<TextMeshPro>().text = "退出";
 			btnStart.GetComponent<BoxCollider>().enabled = true;
 			btnExit.SetActive(false);
 		}
@@ -231,10 +232,10 @@ public class TournamentManager : MonoBehaviour {
 
 		//set start button text
 		if(PlayerPrefs.GetInt("TorunamentMatchResult") == 1) {
-			btnStartText.GetComponent<TextMesh>().text = "Continue";
+			btnStartText.GetComponent<TextMeshPro>().text = "继续";
 			btnStart.GetComponent<BoxCollider>().enabled = true;
 		} else {
-			btnStartText.GetComponent<TextMesh>().text = "Exit";
+			btnStartText.GetComponent<TextMeshPro>().text = "退出";
 			btnStart.GetComponent<BoxCollider>().enabled = true;
 			btnExit.SetActive(false);
 		}
@@ -262,7 +263,7 @@ public class TournamentManager : MonoBehaviour {
 
 			LevelDTeams[0].GetComponent<Renderer>().material.mainTexture = availableFlags[PlayerPrefs.GetInt("WinnersLevelB0")];
 
-			btnStartText.GetComponent<TextMesh>().text = "Finish";
+			btnStartText.GetComponent<TextMeshPro>().text = "完成";
 			btnStart.GetComponent<BoxCollider>().enabled = true;
 			btnExit.SetActive(false);
 
@@ -270,7 +271,7 @@ public class TournamentManager : MonoBehaviour {
 
 			LevelDTeams[0].GetComponent<Renderer>().material.mainTexture = availableFlags[PlayerPrefs.GetInt("WinnersLevelB1")];
 
-			btnStartText.GetComponent<TextMesh>().text = "Oh No!!";
+			btnStartText.GetComponent<TextMeshPro>().text = "不!!";
 			btnStart.GetComponent<BoxCollider>().enabled = true;
 			btnExit.SetActive(false);
 		}
