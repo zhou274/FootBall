@@ -4,12 +4,14 @@ using System.Collections.Generic;
 using TTSDK.UNBridgeLib.LitJson;
 using TTSDK;
 using UnityEngine;
+using static StarkSDKSpace.StarkGridGamePanelManager;
 
 public class CebianlanManager : MonoBehaviour
 {
     // Start is called before the first frame update
     public GameObject CebainlanUI;
     public string clickid;
+    private StarkGridGamePanelManager mStarkGridGamePanelManager;
 
 
     private void Start()
@@ -48,7 +50,22 @@ public class CebianlanManager : MonoBehaviour
         apiSend("active", clickid);
 
 
+        showGridGame();
+    }
 
+    public void showGridGame()
+    {
+        mStarkGridGamePanelManager = StarkSDK.API.GetStarkGridGamePanelManager();
+        if (mStarkGridGamePanelManager != null)
+        {
+            JsonData query = new JsonData();
+            query["tt8aeffc5215db6d6b02"] = "";
+            JsonData position = new JsonData();
+            position["top"] = 80;
+            position["left"] = 30;
+            StarkGridGamePanel mStarkGridGamePanel = mStarkGridGamePanelManager.CreateGridGamePanel(GridGamePanelCount.One, query, GridGamePanelSize.Large, position);
+            mStarkGridGamePanel.Show();
+        }
     }
 
 

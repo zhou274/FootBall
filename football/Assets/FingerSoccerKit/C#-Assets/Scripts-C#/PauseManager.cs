@@ -108,7 +108,7 @@ public class PauseManager : MonoBehaviour {
 						break;
 					
 					case "RestartBtn":
-                        ShowVideoAd("192if3b93qo6991ed0",
+                        ShowVideoAd("fb29oqfcps5hp6303g",
             (bol) => {
                 if (bol)
                 {
@@ -165,6 +165,34 @@ public class PauseManager : MonoBehaviour {
 	    if(pausePlane)
 	    	pausePlane.SetActive(true);
 	    currentPage = Page.PAUSE;
+
+
+		ShowInterstitialAd("9i5a42ijd18g2482d4",
+		   () => {
+
+		   },
+		   (it, str) => {
+			   Debug.LogError("Error->" + str);
+		   });
+
+	}
+
+
+	/// <summary>
+	/// ≤•∑≈≤Â∆¡π„∏Ê
+	/// </summary>
+	/// <param name="adId"></param>
+	/// <param name="errorCallBack"></param>
+	/// <param name="closeCallBack"></param>
+	public void ShowInterstitialAd(string adId, System.Action closeCallBack, System.Action<int, string> errorCallBack)
+	{
+		starkAdManager = StarkSDK.API.GetStarkAdManager();
+		if (starkAdManager != null)
+		{
+			var mInterstitialAd = starkAdManager.CreateInterstitialAd(adId, errorCallBack, closeCallBack);
+			mInterstitialAd.Load();
+			mInterstitialAd.Show();
+		}
 	}
 
 	void UnPauseGame (){

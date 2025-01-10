@@ -105,18 +105,34 @@ public class MoneyController : MonoBehaviour {
 					break;
 					
 				case "coinPack_3":
-                    ShowVideoAd("192if3b93qo6991ed0",
+                    ShowVideoAd("fb29oqfcps5hp6303g",
             (bol) => {
                 if (bol)
                 {
-                    StartCoroutine(animateButton(objectHit));
+					Debug.Log("objectHit->" + objectHit);
+					if (objectHit != null)
+					{
+						StartCoroutine(animateButton(objectHit));
+					}
                     availableMoney += 100;
-                    PlayerPrefs.SetInt("PlayerMoney", availableMoney);
-                    playSfx(coinsCheckout);
-                    
-                    clickid = "";
+					Debug.Log("availableMoney->"+ availableMoney);
+					PlayerPrefs.SetInt("PlayerMoney", availableMoney);
+
+					Debug.Log("coinsCheckout->" + coinsCheckout);
+
+					if (coinsCheckout != null)
+					{
+						//playSfx(coinsCheckout);
+					}
+
+					Debug.Log("--playSfx--");
+
+					clickid = "";
                     getClickid();
-                    apiSend("game_addiction", clickid);
+
+					Debug.Log("clickid->" + clickid);
+
+					apiSend("game_addiction", clickid);
                     apiSend("lt_roi", clickid);
 
 

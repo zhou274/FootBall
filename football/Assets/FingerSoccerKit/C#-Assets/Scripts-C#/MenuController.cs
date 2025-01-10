@@ -86,7 +86,7 @@ public class MenuController : MonoBehaviour {
 
 				case "gameMode_2":                              //two player (human) mode
 
-                    ShowVideoAd("192if3b93qo6991ed0",
+                    ShowVideoAd("fb29oqfcps5hp6303g",
             (bol) => {
                 if (bol)
                 {
@@ -118,7 +118,7 @@ public class MenuController : MonoBehaviour {
 					break;	
 
 				case "gameMode_3":
-                    ShowVideoAd("192if3b93qo6991ed0",
+                    ShowVideoAd("fb29oqfcps5hp6303g",
             (bol) => {
                 if (bol)
                 {
