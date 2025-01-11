@@ -1,55 +1,59 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Unity\\football\\",
+  "WorkspaceRootPath": "D:\\Unity\\\u624B\u6307\u8DB3\u7403\u62C9\u53D6\\football\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B7AF7EE2-AAA8-4F82-D6A7-4B0B708F3EB5}|Assembly-CSharp.csproj|D:\\Unity\\football\\assets\\fingersoccerkit\\c#-assets\\scripts-c#\\pausemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B7AF7EE2-AAA8-4F82-D6A7-4B0B708F3EB5}|Assembly-CSharp.csproj|D:\\Unity\\\u624B\u6307\u8DB3\u7403\u62C9\u53D6\\football\\assets\\fingersoccerkit\\c#-assets\\scripts-c#\\configcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7AF7EE2-AAA8-4F82-D6A7-4B0B708F3EB5}|Assembly-CSharp.csproj|solutionrelative:assets\\fingersoccerkit\\c#-assets\\scripts-c#\\configcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7AF7EE2-AAA8-4F82-D6A7-4B0B708F3EB5}|Assembly-CSharp.csproj|D:\\Unity\\\u624B\u6307\u8DB3\u7403\u62C9\u53D6\\football\\assets\\fingersoccerkit\\c#-assets\\scripts-c#\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7AF7EE2-AAA8-4F82-D6A7-4B0B708F3EB5}|Assembly-CSharp.csproj|solutionrelative:assets\\fingersoccerkit\\c#-assets\\scripts-c#\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7AF7EE2-AAA8-4F82-D6A7-4B0B708F3EB5}|Assembly-CSharp.csproj|d:\\unity\\\u624B\u6307\u8DB3\u7403\u62C9\u53D6\\football\\assets\\fingersoccerkit\\c#-assets\\scripts-c#\\playercollidermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7AF7EE2-AAA8-4F82-D6A7-4B0B708F3EB5}|Assembly-CSharp.csproj|solutionrelative:assets\\fingersoccerkit\\c#-assets\\scripts-c#\\playercollidermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7AF7EE2-AAA8-4F82-D6A7-4B0B708F3EB5}|Assembly-CSharp.csproj|D:\\Unity\\\u624B\u6307\u8DB3\u7403\u62C9\u53D6\\football\\assets\\fingersoccerkit\\c#-assets\\scripts-c#\\cebianlanmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7AF7EE2-AAA8-4F82-D6A7-4B0B708F3EB5}|Assembly-CSharp.csproj|solutionrelative:assets\\fingersoccerkit\\c#-assets\\scripts-c#\\cebianlanmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7AF7EE2-AAA8-4F82-D6A7-4B0B708F3EB5}|Assembly-CSharp.csproj|d:\\unity\\\u624B\u6307\u8DB3\u7403\u62C9\u53D6\\football\\assets\\fingersoccerkit\\c#-assets\\scripts-c#\\pausemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B7AF7EE2-AAA8-4F82-D6A7-4B0B708F3EB5}|Assembly-CSharp.csproj|solutionrelative:assets\\fingersoccerkit\\c#-assets\\scripts-c#\\pausemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7AF7EE2-AAA8-4F82-D6A7-4B0B708F3EB5}|Assembly-CSharp.csproj|d:\\unity\\football\\assets\\fingersoccerkit\\c#-assets\\scripts-c#\\globalgamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B7AF7EE2-AAA8-4F82-D6A7-4B0B708F3EB5}|Assembly-CSharp.csproj|D:\\Unity\\\u624B\u6307\u8DB3\u7403\u62C9\u53D6\\football\\assets\\fingersoccerkit\\c#-assets\\scripts-c#\\globalgamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B7AF7EE2-AAA8-4F82-D6A7-4B0B708F3EB5}|Assembly-CSharp.csproj|solutionrelative:assets\\fingersoccerkit\\c#-assets\\scripts-c#\\globalgamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Documents\\WeChat Files\\wxid_9teq3zcmdt6m22\\FileStorage\\File\\2024-12\\ADManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7AF7EE2-AAA8-4F82-D6A7-4B0B708F3EB5}|Assembly-CSharp.csproj|D:\\Unity\\football\\assets\\fingersoccerkit\\c#-assets\\scripts-c#\\moneycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B7AF7EE2-AAA8-4F82-D6A7-4B0B708F3EB5}|Assembly-CSharp.csproj|D:\\Unity\\\u624B\u6307\u8DB3\u7403\u62C9\u53D6\\football\\assets\\fingersoccerkit\\c#-assets\\scripts-c#\\moneycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B7AF7EE2-AAA8-4F82-D6A7-4B0B708F3EB5}|Assembly-CSharp.csproj|solutionrelative:assets\\fingersoccerkit\\c#-assets\\scripts-c#\\moneycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7AF7EE2-AAA8-4F82-D6A7-4B0B708F3EB5}|Assembly-CSharp.csproj|d:\\unity\\football\\assets\\fingersoccerkit\\c#-assets\\scripts-c#\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B7AF7EE2-AAA8-4F82-D6A7-4B0B708F3EB5}|Assembly-CSharp.csproj|D:\\Unity\\\u624B\u6307\u8DB3\u7403\u62C9\u53D6\\football\\assets\\fingersoccerkit\\c#-assets\\scripts-c#\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B7AF7EE2-AAA8-4F82-D6A7-4B0B708F3EB5}|Assembly-CSharp.csproj|solutionrelative:assets\\fingersoccerkit\\c#-assets\\scripts-c#\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7AF7EE2-AAA8-4F82-D6A7-4B0B708F3EB5}|Assembly-CSharp.csproj|D:\\Unity\\football\\assets\\fingersoccerkit\\c#-assets\\scripts-c#\\shopmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B7AF7EE2-AAA8-4F82-D6A7-4B0B708F3EB5}|Assembly-CSharp.csproj|D:\\Unity\\\u624B\u6307\u8DB3\u7403\u62C9\u53D6\\football\\assets\\fingersoccerkit\\c#-assets\\scripts-c#\\shopmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B7AF7EE2-AAA8-4F82-D6A7-4B0B708F3EB5}|Assembly-CSharp.csproj|solutionrelative:assets\\fingersoccerkit\\c#-assets\\scripts-c#\\shopmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B7AF7EE2-AAA8-4F82-D6A7-4B0B708F3EB5}|Assembly-CSharp.csproj|d:\\unity\\football\\assets\\fingersoccerkit\\c#-assets\\scripts-c#\\cebianlanmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7AF7EE2-AAA8-4F82-D6A7-4B0B708F3EB5}|Assembly-CSharp.csproj|solutionrelative:assets\\fingersoccerkit\\c#-assets\\scripts-c#\\cebianlanmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Documents\\WeChat Files\\wxid_9teq3zcmdt6m22\\FileStorage\\File\\2024-12\\CebianlanManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7AF7EE2-AAA8-4F82-D6A7-4B0B708F3EB5}|Assembly-CSharp.csproj|D:\\Unity\\football\\assets\\fingersoccerkit\\c#-assets\\scripts-c#\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B7AF7EE2-AAA8-4F82-D6A7-4B0B708F3EB5}|Assembly-CSharp.csproj|D:\\Unity\\\u624B\u6307\u8DB3\u7403\u62C9\u53D6\\football\\assets\\fingersoccerkit\\c#-assets\\scripts-c#\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B7AF7EE2-AAA8-4F82-D6A7-4B0B708F3EB5}|Assembly-CSharp.csproj|solutionrelative:assets\\fingersoccerkit\\c#-assets\\scripts-c#\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7AF7EE2-AAA8-4F82-D6A7-4B0B708F3EB5}|Assembly-CSharp.csproj|D:\\Unity\\football\\assets\\fingersoccerkit\\c#-assets\\scripts-c#\\heartbeatanimationeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B7AF7EE2-AAA8-4F82-D6A7-4B0B708F3EB5}|Assembly-CSharp.csproj|D:\\Unity\\\u624B\u6307\u8DB3\u7403\u62C9\u53D6\\football\\assets\\fingersoccerkit\\c#-assets\\scripts-c#\\heartbeatanimationeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B7AF7EE2-AAA8-4F82-D6A7-4B0B708F3EB5}|Assembly-CSharp.csproj|solutionrelative:assets\\fingersoccerkit\\c#-assets\\scripts-c#\\heartbeatanimationeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7AF7EE2-AAA8-4F82-D6A7-4B0B708F3EB5}|Assembly-CSharp.csproj|D:\\Unity\\football\\assets\\fingersoccerkit\\c#-assets\\scripts-c#\\configcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7AF7EE2-AAA8-4F82-D6A7-4B0B708F3EB5}|Assembly-CSharp.csproj|solutionrelative:assets\\fingersoccerkit\\c#-assets\\scripts-c#\\configcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B7AF7EE2-AAA8-4F82-D6A7-4B0B708F3EB5}|Assembly-CSharp.csproj|D:\\Unity\\football\\assets\\fingersoccerkit\\c#-assets\\scripts-c#\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7AF7EE2-AAA8-4F82-D6A7-4B0B708F3EB5}|Assembly-CSharp.csproj|solutionrelative:assets\\fingersoccerkit\\c#-assets\\scripts-c#\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B7AF7EE2-AAA8-4F82-D6A7-4B0B708F3EB5}|Assembly-CSharp.csproj|D:\\Unity\\football\\assets\\fingersoccerkit\\c#-assets\\scripts-c#\\opponentai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B7AF7EE2-AAA8-4F82-D6A7-4B0B708F3EB5}|Assembly-CSharp.csproj|D:\\Unity\\\u624B\u6307\u8DB3\u7403\u62C9\u53D6\\football\\assets\\fingersoccerkit\\c#-assets\\scripts-c#\\opponentai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B7AF7EE2-AAA8-4F82-D6A7-4B0B708F3EB5}|Assembly-CSharp.csproj|solutionrelative:assets\\fingersoccerkit\\c#-assets\\scripts-c#\\opponentai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -60,48 +64,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ADManager.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\WeChat Files\\wxid_9teq3zcmdt6m22\\FileStorage\\File\\2024-12\\ADManager.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Documents\\WeChat Files\\wxid_9teq3zcmdt6m22\\FileStorage\\File\\2024-12\\ADManager.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
+              "Title": "playerColliderManager.cs",
+              "DocumentMoniker": "D:\\Unity\\\u624B\u6307\u8DB3\u7403\u62C9\u53D6\\football\\Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\playerColliderManager.cs",
+              "RelativeDocumentMoniker": "Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\playerColliderManager.cs",
+              "ToolTip": "D:\\Unity\\\u624B\u6307\u8DB3\u7403\u62C9\u53D6\\football\\Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\playerColliderManager.cs",
+              "RelativeToolTip": "Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\playerColliderManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T05:53:50.521Z",
+              "WhenOpened": "2025-01-11T04:37:51.959Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MenuController.cs",
-              "DocumentMoniker": "D:\\Unity\\football\\Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\MenuController.cs",
-              "RelativeDocumentMoniker": "Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\MenuController.cs",
-              "ToolTip": "D:\\Unity\\football\\Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\MenuController.cs",
-              "RelativeToolTip": "Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\MenuController.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T05:49:30.988Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GlobalGameManager.cs",
-              "DocumentMoniker": "D:\\Unity\\football\\Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\GlobalGameManager.cs",
-              "RelativeDocumentMoniker": "Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\GlobalGameManager.cs",
-              "ToolTip": "D:\\Unity\\football\\Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\GlobalGameManager.cs",
-              "RelativeToolTip": "Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\GlobalGameManager.cs",
-              "ViewState": "AgIAAIUCAAAAAAAAAAAuwKkCAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T03:49:19.019Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "CebianlanManager.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\WeChat Files\\wxid_9teq3zcmdt6m22\\FileStorage\\File\\2024-12\\CebianlanManager.cs",
               "ToolTip": "C:\\Users\\Administrator\\Documents\\WeChat Files\\wxid_9teq3zcmdt6m22\\FileStorage\\File\\2024-12\\CebianlanManager.cs [\u53EA\u8BFB]",
@@ -112,24 +92,50 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
+              "Title": "playerController.cs",
+              "DocumentMoniker": "D:\\Unity\\\u624B\u6307\u8DB3\u7403\u62C9\u53D6\\football\\Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\playerController.cs",
+              "RelativeDocumentMoniker": "Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\playerController.cs",
+              "ToolTip": "D:\\Unity\\\u624B\u6307\u8DB3\u7403\u62C9\u53D6\\football\\Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\playerController.cs",
+              "RelativeToolTip": "Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\playerController.cs",
+              "ViewState": "AgIAAO8AAAAAAAAAAAAiwPoAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T03:51:16.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MenuController.cs",
+              "DocumentMoniker": "D:\\Unity\\\u624B\u6307\u8DB3\u7403\u62C9\u53D6\\football\\Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\MenuController.cs",
+              "RelativeDocumentMoniker": "Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\MenuController.cs",
+              "ToolTip": "D:\\Unity\\\u624B\u6307\u8DB3\u7403\u62C9\u53D6\\football\\Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\MenuController.cs",
+              "RelativeToolTip": "Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\MenuController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T05:49:30.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "CebianlanManager.cs",
-              "DocumentMoniker": "D:\\Unity\\football\\Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\CebianlanManager.cs",
+              "DocumentMoniker": "D:\\Unity\\\u624B\u6307\u8DB3\u7403\u62C9\u53D6\\football\\Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\CebianlanManager.cs",
               "RelativeDocumentMoniker": "Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\CebianlanManager.cs",
-              "ToolTip": "D:\\Unity\\football\\Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\CebianlanManager.cs",
+              "ToolTip": "D:\\Unity\\\u624B\u6307\u8DB3\u7403\u62C9\u53D6\\football\\Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\CebianlanManager.cs",
               "RelativeToolTip": "Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\CebianlanManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHsAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-01T05:48:10.602Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "PauseManager.cs",
-              "DocumentMoniker": "D:\\Unity\\football\\Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\PauseManager.cs",
+              "DocumentMoniker": "D:\\Unity\\\u624B\u6307\u8DB3\u7403\u62C9\u53D6\\football\\Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\PauseManager.cs",
               "RelativeDocumentMoniker": "Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\PauseManager.cs",
-              "ToolTip": "D:\\Unity\\football\\Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\PauseManager.cs",
+              "ToolTip": "D:\\Unity\\\u624B\u6307\u8DB3\u7403\u62C9\u53D6\\football\\Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\PauseManager.cs",
               "RelativeToolTip": "Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\PauseManager.cs",
               "ViewState": "AgIAAMwAAAAAAAAAAAAUwHMAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -138,24 +144,60 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "MoneyController.cs",
-              "DocumentMoniker": "D:\\Unity\\football\\Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\MoneyController.cs",
+              "DocumentMoniker": "D:\\Unity\\\u624B\u6307\u8DB3\u7403\u62C9\u53D6\\football\\Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\MoneyController.cs",
               "RelativeDocumentMoniker": "Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\MoneyController.cs",
-              "ToolTip": "D:\\Unity\\football\\Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\MoneyController.cs",
+              "ToolTip": "D:\\Unity\\\u624B\u6307\u8DB3\u7403\u62C9\u53D6\\football\\Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\MoneyController.cs",
               "RelativeToolTip": "Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\MoneyController.cs",
-              "ViewState": "AgIAAG4AAAAAAAAAAAAAwHMAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAAwHMAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-01T03:58:09.425Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConfigController.cs",
+              "DocumentMoniker": "D:\\Unity\\\u624B\u6307\u8DB3\u7403\u62C9\u53D6\\football\\Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\ConfigController.cs",
+              "RelativeDocumentMoniker": "Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\ConfigController.cs",
+              "ToolTip": "D:\\Unity\\\u624B\u6307\u8DB3\u7403\u62C9\u53D6\\football\\Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\ConfigController.cs",
+              "RelativeToolTip": "Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\ConfigController.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAYwIoAAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T03:45:08.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "GlobalGameManager.cs",
+              "DocumentMoniker": "D:\\Unity\\\u624B\u6307\u8DB3\u7403\u62C9\u53D6\\football\\Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\GlobalGameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\GlobalGameManager.cs",
+              "ToolTip": "D:\\Unity\\\u624B\u6307\u8DB3\u7403\u62C9\u53D6\\football\\Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\GlobalGameManager.cs",
+              "RelativeToolTip": "Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\GlobalGameManager.cs",
+              "ViewState": "AgIAAIUCAAAAAAAAAAAuwKkCAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T03:49:19.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ADManager.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\WeChat Files\\wxid_9teq3zcmdt6m22\\FileStorage\\File\\2024-12\\ADManager.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\WeChat Files\\wxid_9teq3zcmdt6m22\\FileStorage\\File\\2024-12\\ADManager.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T05:53:50.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "ShopManager.cs",
-              "DocumentMoniker": "D:\\Unity\\football\\Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\ShopManager.cs",
+              "DocumentMoniker": "D:\\Unity\\\u624B\u6307\u8DB3\u7403\u62C9\u53D6\\football\\Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\ShopManager.cs",
               "RelativeDocumentMoniker": "Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\ShopManager.cs",
-              "ToolTip": "D:\\Unity\\football\\Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\ShopManager.cs",
+              "ToolTip": "D:\\Unity\\\u624B\u6307\u8DB3\u7403\u62C9\u53D6\\football\\Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\ShopManager.cs",
               "RelativeToolTip": "Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\ShopManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvxQAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -164,63 +206,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "HeartBeatAnimationEffect.cs",
-              "DocumentMoniker": "D:\\Unity\\football\\Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\HeartBeatAnimationEffect.cs",
+              "DocumentMoniker": "D:\\Unity\\\u624B\u6307\u8DB3\u7403\u62C9\u53D6\\football\\Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\HeartBeatAnimationEffect.cs",
               "RelativeDocumentMoniker": "Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\HeartBeatAnimationEffect.cs",
-              "ToolTip": "D:\\Unity\\football\\Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\HeartBeatAnimationEffect.cs",
+              "ToolTip": "D:\\Unity\\\u624B\u6307\u8DB3\u7403\u62C9\u53D6\\football\\Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\HeartBeatAnimationEffect.cs",
               "RelativeToolTip": "Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\HeartBeatAnimationEffect.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T04:30:38.014Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ShopController.cs",
-              "DocumentMoniker": "D:\\Unity\\football\\Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\ShopController.cs",
-              "RelativeDocumentMoniker": "Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\ShopController.cs",
-              "ToolTip": "D:\\Unity\\football\\Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\ShopController.cs",
-              "RelativeToolTip": "Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\ShopController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAhwCMAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T03:51:18.717Z"
+              "WhenOpened": "2025-01-01T04:30:38.014Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "playerController.cs",
-              "DocumentMoniker": "D:\\Unity\\football\\Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\playerController.cs",
-              "RelativeDocumentMoniker": "Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\playerController.cs",
-              "ToolTip": "D:\\Unity\\football\\Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\playerController.cs",
-              "RelativeToolTip": "Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\playerController.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAAABkAAABTAAAAAAAAAA==",
+              "Title": "ShopController.cs",
+              "DocumentMoniker": "D:\\Unity\\\u624B\u6307\u8DB3\u7403\u62C9\u53D6\\football\\Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\ShopController.cs",
+              "RelativeDocumentMoniker": "Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\ShopController.cs",
+              "ToolTip": "D:\\Unity\\\u624B\u6307\u8DB3\u7403\u62C9\u53D6\\football\\Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\ShopController.cs",
+              "RelativeToolTip": "Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\ShopController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAhwCMAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T03:51:16.986Z"
+              "WhenOpened": "2025-01-01T03:51:18.717Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "OpponentAI.cs",
-              "DocumentMoniker": "D:\\Unity\\football\\Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\OpponentAI.cs",
+              "DocumentMoniker": "D:\\Unity\\\u624B\u6307\u8DB3\u7403\u62C9\u53D6\\football\\Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\OpponentAI.cs",
               "RelativeDocumentMoniker": "Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\OpponentAI.cs",
-              "ToolTip": "D:\\Unity\\football\\Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\OpponentAI.cs",
+              "ToolTip": "D:\\Unity\\\u624B\u6307\u8DB3\u7403\u62C9\u53D6\\football\\Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\OpponentAI.cs",
               "RelativeToolTip": "Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\OpponentAI.cs",
               "ViewState": "AgIAAIUAAAAAAAAAAAAAwJsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T03:49:29.55Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ConfigController.cs",
-              "DocumentMoniker": "D:\\Unity\\football\\Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\ConfigController.cs",
-              "RelativeDocumentMoniker": "Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\ConfigController.cs",
-              "ToolTip": "D:\\Unity\\football\\Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\ConfigController.cs",
-              "RelativeToolTip": "Assets\\FingerSoccerKit\\C#-Assets\\Scripts-C#\\ConfigController.cs",
-              "ViewState": "AgIAANkAAAAAAAAAAAAUwFAAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T03:45:08.5Z"
+              "WhenOpened": "2025-01-01T03:49:29.55Z",
+              "EditorCaption": ""
             }
           ]
         }

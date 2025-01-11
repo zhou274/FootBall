@@ -1,0 +1,860 @@
+Using pre-set license
+Built from '2020.3/china_unity/release' branch; Version is '2021.3.41f1c1 (abf9ed549ceb) revision 11270637'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'zh' Physical Memory: 65375 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.41f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Unity/手指足球拉取/football
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59135
+Successfully changed project path to: D:/Unity/手指足球拉取/football
+D:/Unity/手指足球拉取/football
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [1696] Host "[IP] 192.168.31.197 [Port] 0 [Flags] 2 [Guid] 862735570 [EditorId] 862735570 [Version] 1048832 [Id] WindowsEditor(7,DS-202405191929) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [1696] Host "[IP] 192.168.31.197 [Port] 0 [Flags] 2 [Guid] 862735570 [EditorId] 862735570 [Version] 1048832 [Id] WindowsEditor(7,DS-202405191929) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+AS: AutoStreaming module initializing.
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 70.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.41f1c1 (abf9ed549ceb)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.41f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/手指足球拉取/football/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
+    Vendor:   NVIDIA
+    VRAM:     5969 MB
+    Driver:   31.0.15.4629
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.41f1c1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.41f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.41f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56324
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.41f1c1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.41f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.41f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.011349 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android SDK Build-tools component is not found. Make sure all tools are installed in the SDK manager.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.Android.AndroidSDKTools:UpdateToolsDirectories ()
+UnityEditor.Android.AndroidSDKTools:.ctor (string)
+UnityEditor.Android.AndroidSDKTools:CreateAndroidSDKTools (string)
+UnityEditor.Android.AndroidSDKTools:GetInstance<UnityEditor.Android.AndroidSDKTools> (UnityEditor.Android.AndroidSDKTools/InstanceCreator)
+UnityEditor.Android.AndroidSDKTools:GetInstance ()
+UnityEditor.Android.AndroidDeploymentTargetsExtension:GetMainThreadContext (bool)
+UnityEditor.Android.TargetExtension:OnUsbDevicesChanged (UnityEditor.Hardware.UsbDevice[])
+UnityEditor.Android.TargetExtension:OnLoad ()
+UnityEditor.Modules.ModuleManager:InitializePlatformSupportModules ()
+
+An ADB process has shut down when we were accessing it, the following System.ArgumentException has been thrown: The specified path is not of a legal form (empty)..
+InvalidOperationException: Cannot start process because a file name has not been provided.
+  at System.Diagnostics.Process.Start () [0x00024] in <a3c32f2a832547c1bce7833b919abc42>:0 
+  at (wrapper remoting-invoke-with-check) System.Diagnostics.Process.Start()
+  at UnityEditor.Android.ProgramAsShellExecute.Start (System.Diagnostics.ProcessStartInfo psi) [0x0000e] in <ab639f04fe68482e8095b4649da26631>:0 
+  at UnityEditor.Android.Command.RunWithShellExecute (System.String command, System.String args, System.String workingdir, System.String errorMsg) [0x0003e] in <ab639f04fe68482e8095b4649da26631>:0 
+  at UnityEditor.Android.ADB.StartServer () [0x00013] in <ab639f04fe68482e8095b4649da26631>:0 
+  at UnityEditor.Android.ADB.Run (System.String[] command, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x0000b] in <ab639f04fe68482e8095b4649da26631>:0 
+  at UnityEditor.Android.AndroidDeploymentTargetsExtension.GetKnownTargets (UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext context, UnityEditor.ProgressHandler progressHandler) [0x002ae] in <ab639f04fe68482e8095b4649da26631>:0 
+  at UnityEditor.Android.TargetScanWorker.ScanSync () [0x00039] in <ab639f04fe68482e8095b4649da26631>:0 
+  at UnityEditor.Android.TargetExtension.OnUsbDevicesChanged (UnityEditor.Hardware.UsbDevice[] usbDevices) [0x00081] in <ab639f04fe68482e8095b4649da26631>:0 
+  at UnityEditor.Android.TargetExtension.OnLoad () [0x0008d] in <ab639f04fe68482e8095b4649da26631>:0 
+  at UnityEditor.Modules.ModuleManager.InitializePlatformSupportModules () [0x0009d] in <814ad583114542d98f219069942d9500>:0 
+
+Refreshing native plugins compatible for Editor in 91.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.009 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1010ms)
+		BeginReloadAssembly (137ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (729ms)
+			LoadAssemblies (132ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (154ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (470ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (166ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (91ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (148ms)
+				ProcessInitializeOnLoadMethodAttributes (62ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Registering precompiled user dll's ...
+Registered in 0.010831 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  2.065 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2066ms)
+		BeginReloadAssembly (213ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (1684ms)
+			LoadAssemblies (148ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (395ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (83ms)
+			SetupLoadedEditorAssemblies (1027ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (36ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (813ms)
+				ProcessInitializeOnLoadMethodAttributes (59ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3151 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (46.6 KB). Loaded Objects now: 3629.
+Memory consumption went from 119.8 MB to 119.8 MB.
+Total: 3.851000 ms (FindLiveObjects: 0.345600 ms CreateObjectMapping: 0.175200 ms MarkObjects: 3.249500 ms  DeleteObjects: 0.079700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 6000.266853 seconds.
+  path: Assets/FingerSoccerKit/C#-Assets/Scenes-C#
+  artifactKey: Guid(435deb353344caf4a90553c4258c30a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/C#-Assets/Scenes-C# using Guid(435deb353344caf4a90553c4258c30a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04e0e3d40aec8b97b76136e9b231e308') in 0.007495 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(8e3cff9583b9fa444a1b7ca55fccdae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes using Guid(8e3cff9583b9fa444a1b7ca55fccdae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f08ad39e8298fe4a61bc7bf939c94a67') in 0.001262 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca186c5bf9d05d007e8d276bb5c9616b') in 0.001091 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/FingerSoccerKit/C#-Assets
+  artifactKey: Guid(a71840139a1478e469c0d35c8e0a5146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/C#-Assets using Guid(a71840139a1478e469c0d35c8e0a5146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87719d5d1149c98dd4c93b19342a7824') in 0.001080 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.546342 seconds.
+  path: Assets/FingerSoccerKit/C#-Assets/Scenes-C#/Menu-c#.unity
+  artifactKey: Guid(dd8968adaa6e57843886d49890d6a2e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/C#-Assets/Scenes-C#/Menu-c#.unity using Guid(dd8968adaa6e57843886d49890d6a2e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c872a4b6de03dc69c23d537a9d0561f') in 0.001802 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.214112 seconds.
+  path: Assets/FingerSoccerKit/C#-Assets/Scenes-C#/Config-c#.unity
+  artifactKey: Guid(0be66c77c07b876448784b9439941966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/C#-Assets/Scenes-C#/Config-c#.unity using Guid(0be66c77c07b876448784b9439941966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d53d8a8e629f461be2051a0657e1621') in 0.002012 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009685 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  2.066 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2067ms)
+		BeginReloadAssembly (259ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (64ms)
+		EndReloadAssembly (1648ms)
+			LoadAssemblies (157ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (451ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (955ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (36ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (761ms)
+				ProcessInitializeOnLoadMethodAttributes (62ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3130 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (21.9 KB). Loaded Objects now: 3632.
+Memory consumption went from 118.0 MB to 118.0 MB.
+Total: 3.560400 ms (FindLiveObjects: 0.318500 ms CreateObjectMapping: 0.172600 ms MarkObjects: 3.048700 ms  DeleteObjects: 0.019500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 58.132530 seconds.
+  path: Assets/FingerSoccerKit/Textures/Flags/flag-08.png
+  artifactKey: Guid(791d0e0ea2f44da489036e88aecc7718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Textures/Flags/flag-08.png using Guid(791d0e0ea2f44da489036e88aecc7718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1ef60732d18cd1023b084238080fba3') in 0.101070 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 12.722227 seconds.
+  path: Assets/FingerSoccerKit/Textures/UI/arrow.png
+  artifactKey: Guid(081ad9835ef55574dac6b4ae7c19fe84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Textures/UI/arrow.png using Guid(081ad9835ef55574dac6b4ae7c19fe84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02c226b51816c70857eec8a1b0881d61') in 0.021312 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.606222 seconds.
+  path: Assets/FingerSoccerKit/Materials/UI
+  artifactKey: Guid(70a16a4da81f4194db56c1c49c245e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Materials/UI using Guid(70a16a4da81f4194db56c1c49c245e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8138ce2fad97fab7e48d1c062396dcd') in 0.001886 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.366113 seconds.
+  path: Assets/FingerSoccerKit/Textures/UI/draw.psd
+  artifactKey: Guid(56cff552926cf6a4b9a0a868d42f43c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Textures/UI/draw.psd using Guid(56cff552926cf6a4b9a0a868d42f43c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f361e424c2488dac862ca34ba825d06d') in 0.016420 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.788957 seconds.
+  path: Assets/FingerSoccerKit/Textures/UI/游戏成功橙色.png
+  artifactKey: Guid(22526dad9afaad043b69d2c348aeb327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Textures/UI/游戏成功橙色.png using Guid(22526dad9afaad043b69d2c348aeb327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2480d9f312cde38c0e02dbd1c42879c4') in 0.021581 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.408743 seconds.
+  path: Assets/FingerSoccerKit/Textures/UI/p1-win.psd
+  artifactKey: Guid(69e7033f0c18dd24aabf54816008b243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Textures/UI/p1-win.psd using Guid(69e7033f0c18dd24aabf54816008b243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f438963b174063f9681c33768fb2ecb9') in 0.011695 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.394099 seconds.
+  path: Assets/FingerSoccerKit/Textures/UI/p2-win.psd
+  artifactKey: Guid(c992cf71dbdfc154d88c8d53f782dd22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Textures/UI/p2-win.psd using Guid(c992cf71dbdfc154d88c8d53f782dd22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29b779fb9626bdf05906e12dc9ad8618') in 0.021139 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.408251 seconds.
+  path: Assets/FingerSoccerKit/Textures/UI/UI-Pause.png
+  artifactKey: Guid(b1c3d51a856158447b2b71c56a13146a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Textures/UI/UI-Pause.png using Guid(b1c3d51a856158447b2b71c56a13146a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df6fdd9913cce8be8cb5a68f2b13aaea') in 0.017518 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.876064 seconds.
+  path: Assets/FingerSoccerKit/Textures/UI/selectionCircle.png
+  artifactKey: Guid(d32ea17eac6099a4fbf3cb176889515a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Textures/UI/selectionCircle.png using Guid(d32ea17eac6099a4fbf3cb176889515a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8611ac938fdc1101e4ca22e84fffe3ac') in 0.016722 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.540676 seconds.
+  path: Assets/FingerSoccerKit/Textures/UI/Clock-Score-UI.png
+  artifactKey: Guid(f0157cc2e096fd6438e8c3f9f5683137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Textures/UI/Clock-Score-UI.png using Guid(f0157cc2e096fd6438e8c3f9f5683137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eb2e70b49539c621000ec0e6c1a1a6f') in 0.025213 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.510460 seconds.
+  path: Assets/FingerSoccerKit/Textures/UI/UpperGUI.png
+  artifactKey: Guid(f2876c7653605b741b529f127ae0ca6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Textures/UI/UpperGUI.png using Guid(f2876c7653605b741b529f127ae0ca6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e9cfa7f7ca441f8a90618729d6f083e') in 0.017479 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.434454 seconds.
+  path: Assets/FingerSoccerKit/Textures/UI/you-have-lost.psd
+  artifactKey: Guid(46048074f75a2a74db96e5b0004868e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Textures/UI/you-have-lost.psd using Guid(46048074f75a2a74db96e5b0004868e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6237bc7a8491f8d9708e081f736c8578') in 0.011367 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.418714 seconds.
+  path: Assets/FingerSoccerKit/Textures/Flags/flag-13.png
+  artifactKey: Guid(0fc42d2c507f15844bbfc3d3ecf376c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Textures/Flags/flag-13.png using Guid(0fc42d2c507f15844bbfc3d3ecf376c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38b3dc72da0b8417ce7c0267cd4b7633') in 0.021622 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.463758 seconds.
+  path: Assets/FingerSoccerKit/Textures/Flags/flag-11.png
+  artifactKey: Guid(9d6ef79b32f55854e92b9f2af3b4650b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Textures/Flags/flag-11.png using Guid(9d6ef79b32f55854e92b9f2af3b4650b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99aded15cf823a9f1040a5a4f9819009') in 0.015755 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.454177 seconds.
+  path: Assets/FingerSoccerKit/Textures/Flags/flag-10.png
+  artifactKey: Guid(fdf2efc3e9b9415459d967f29ab3006f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Textures/Flags/flag-10.png using Guid(fdf2efc3e9b9415459d967f29ab3006f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b03045fb2b900d1cabdc6e559e04b9c6') in 0.015685 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.390333 seconds.
+  path: Assets/FingerSoccerKit/Textures/Flags/flag-09.png
+  artifactKey: Guid(9bc74c326af36ed40b2a6881b86e43a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Textures/Flags/flag-09.png using Guid(9bc74c326af36ed40b2a6881b86e43a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88b3497db50787ac9d520657f68f5e51') in 0.012544 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.800813 seconds.
+  path: Assets/FingerSoccerKit/Textures/Flags/flag-06.png
+  artifactKey: Guid(ea2855326b01aa04baf7d8854c22cf27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Textures/Flags/flag-06.png using Guid(ea2855326b01aa04baf7d8854c22cf27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd68799b2ced09f07b72a4135af33849d') in 0.015512 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 23.589564 seconds.
+  path: Assets/FingerSoccerKit/Textures/Flags/flag-16.png
+  artifactKey: Guid(e919d2e914020ad49a7cec74bf57f6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Textures/Flags/flag-16.png using Guid(e919d2e914020ad49a7cec74bf57f6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '592fd25f6f1c402a781d883a08cb9ff1') in 0.015452 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.480795 seconds.
+  path: Assets/FingerSoccerKit/Textures/Flags/flag-15.png
+  artifactKey: Guid(42cdde084064cfd4d9df13a281218ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Textures/Flags/flag-15.png using Guid(42cdde084064cfd4d9df13a281218ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36ac8dbb05db366a6b00766e15b970af') in 0.014993 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.585976 seconds.
+  path: Assets/FingerSoccerKit/Textures/Flags/flag-14.png
+  artifactKey: Guid(35bd27241aaa33947b9e54e845b2de7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Textures/Flags/flag-14.png using Guid(35bd27241aaa33947b9e54e845b2de7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '113d03e04f43628b37f649f4ba2e9054') in 0.009501 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.969884 seconds.
+  path: Assets/FingerSoccerKit/Textures/Flags/flag-12.png
+  artifactKey: Guid(525778029250fb7478378d9b053cd0dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Textures/Flags/flag-12.png using Guid(525778029250fb7478378d9b053cd0dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1cac542066fe9c06dcebd10c1713915') in 0.009831 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.339234 seconds.
+  path: Assets/FingerSoccerKit/Textures/Flags/flag-07.png
+  artifactKey: Guid(c2c2765f899dd2e47abe7213fbed8136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Textures/Flags/flag-07.png using Guid(c2c2765f899dd2e47abe7213fbed8136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc0ee3fc0b01f593417c164765caa269') in 0.009534 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.853624 seconds.
+  path: Assets/FingerSoccerKit/Textures/Flags/flag-04.png
+  artifactKey: Guid(da948848ee655a443bdb74579b9c38cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Textures/Flags/flag-04.png using Guid(da948848ee655a443bdb74579b9c38cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '032110b2037240ebab113204d36101c1') in 0.015320 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.413282 seconds.
+  path: Assets/FingerSoccerKit/Textures/Flags/flag-03.png
+  artifactKey: Guid(e99b8210bddc4cc4eae6d74d3a0842d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Textures/Flags/flag-03.png using Guid(e99b8210bddc4cc4eae6d74d3a0842d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a616a2a52fdc0c20348cdb3153035449') in 0.009648 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.388706 seconds.
+  path: Assets/FingerSoccerKit/Textures/Flags/flag-02.png
+  artifactKey: Guid(b4501549485e18b4fbb79b5b66b2ebda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Textures/Flags/flag-02.png using Guid(b4501549485e18b4fbb79b5b66b2ebda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5b4736ae7821d27d301a56536a02f9c') in 0.015431 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.334607 seconds.
+  path: Assets/FingerSoccerKit/Textures/Flags/flag-01.png
+  artifactKey: Guid(d43434838f90dbc459d7b6f83c364275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Textures/Flags/flag-01.png using Guid(d43434838f90dbc459d7b6f83c364275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8946683b6a451b247031641a78527a4b') in 0.009871 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.291887 seconds.
+  path: Assets/FingerSoccerKit/Textures/Flags/flag-05.png
+  artifactKey: Guid(a947cc6939b91ff408bf29b144520608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Textures/Flags/flag-05.png using Guid(a947cc6939b91ff408bf29b144520608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdbcb2a4d479ec2d15c9c9eb04166736') in 0.015532 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 16.510765 seconds.
+  path: Assets/FingerSoccerKit/Textures/Ball/Ball-01.png
+  artifactKey: Guid(dc4e519aa2d26fb47b2c9b011e75ab23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Textures/Ball/Ball-01.png using Guid(dc4e519aa2d26fb47b2c9b011e75ab23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e7fd851871b4950dbad104f96b6e9d2') in 0.015672 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.762881 seconds.
+  path: Assets/FingerSoccerKit/Textures/Ball/Ball-03.png
+  artifactKey: Guid(6469cdc698137894db0b5e4ed1b985c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Textures/Ball/Ball-03.png using Guid(6469cdc698137894db0b5e4ed1b985c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95f7bc236b13269968b1b12e8b8320be') in 0.018440 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.402781 seconds.
+  path: Assets/FingerSoccerKit/Textures/Ball/Ball-04.png
+  artifactKey: Guid(e0bfdef6b53798e42986c16d0a4c832b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Textures/Ball/Ball-04.png using Guid(e0bfdef6b53798e42986c16d0a4c832b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '894be072830b413e0f87a919999a9a7b') in 0.017227 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 16.279126 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d87eb2b08105b288b4e8e987a79b229') in 0.021100 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.154504 seconds.
+  path: Assets/FingerSoccerKit/Textures/Gfx/dirtyFlash.png
+  artifactKey: Guid(c9f94b2976eb3c84fa240272a9938e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Textures/Gfx/dirtyFlash.png using Guid(c9f94b2976eb3c84fa240272a9938e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '087261b5861ab4c27c9cfe6505c9b1af') in 0.021572 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.024197 seconds.
+  path: Assets/FingerSoccerKit/Textures/Menu/cellBG.png
+  artifactKey: Guid(091b817b1e6449946876bc3a1ae2fb35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Textures/Menu/cellBG.png using Guid(091b817b1e6449946876bc3a1ae2fb35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33a9bb450004ddfc237db7b95db44489') in 0.015327 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/FingerSoccerKit/Textures/Menu/cellBG-2.png
+  artifactKey: Guid(66a8f3ad39f596c499487fddcb4d2e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Textures/Menu/cellBG-2.png using Guid(66a8f3ad39f596c499487fddcb4d2e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76510eefcd31a1a453535b86395adee6') in 0.009814 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.111938 seconds.
+  path: Assets/cebianlan1.png
+  artifactKey: Guid(c19c1eab13b45e445874693a7a01e420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/cebianlan1.png using Guid(c19c1eab13b45e445874693a7a01e420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6723a5e53053d4bda8f7fb4f48b2bd79') in 0.082977 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/cebianlan.png
+  artifactKey: Guid(31a093acd8c54c64a8513bbd65ca6ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/cebianlan.png using Guid(31a093acd8c54c64a8513bbd65ca6ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '374ab544c2665a90d4a1786b635ae84a') in 0.068851 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.068358 seconds.
+  path: Assets/FingerSoccerKit/Textures/UI/BTN-Settings.png
+  artifactKey: Guid(64afc77276caef34c863933534a597fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Textures/UI/BTN-Settings.png using Guid(64afc77276caef34c863933534a597fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63dff37c8317d99c49ddf4093aa01128') in 0.009077 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.020383 seconds.
+  path: Assets/FingerSoccerKit/Textures/UI/BTN-back.png
+  artifactKey: Guid(993b49b1e0b2de24f860d73881dd4d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Textures/UI/BTN-back.png using Guid(993b49b1e0b2de24f860d73881dd4d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2713e163caf056cd82440fce8fb5deaf') in 0.015596 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/FingerSoccerKit/Textures/Menu/btn-04.png
+  artifactKey: Guid(1bcb4ebf89ec29246a29acb76407ac50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Textures/Menu/btn-04.png using Guid(1bcb4ebf89ec29246a29acb76407ac50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcfd865fdfebe3a573382512eb611d11') in 0.012011 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.249939 seconds.
+  path: Assets/FingerSoccerKit/Textures/Menu/btn-01.png
+  artifactKey: Guid(4c405c1e1fe713b45a4262e75ec481bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Textures/Menu/btn-01.png using Guid(4c405c1e1fe713b45a4262e75ec481bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f848fcce28bdea82e10433becd5112ff') in 0.020749 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.055231 seconds.
+  path: Assets/FingerSoccerKit/Textures/Ball/Ball-02.png
+  artifactKey: Guid(d5cb3e59c9853b2498789f02c704591f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Textures/Ball/Ball-02.png using Guid(d5cb3e59c9853b2498789f02c704591f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adbb53ea72272bbefe701d136f046cce') in 0.012994 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.033338 seconds.
+  path: Assets/FingerSoccerKit/Textures/Backgrounds/Background-main.png
+  artifactKey: Guid(5747d1d89d832c943a2b41843cf4b8da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Textures/Backgrounds/Background-main.png using Guid(5747d1d89d832c943a2b41843cf4b8da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73e420feeea41151a3617ba9cf0f7452') in 0.017237 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.211077 seconds.
+  path: Assets/FingerSoccerKit/Textures/UI/arrowL-Yellow.png
+  artifactKey: Guid(2acf80afa3f95654c9dc8c586900ec63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Textures/UI/arrowL-Yellow.png using Guid(2acf80afa3f95654c9dc8c586900ec63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1b6609b4bf2c1927074b4a879628d42') in 0.007578 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.923728 seconds.
+  path: Assets/Plugins/ByteGame/com.bytedance.starksdk/Icons/follow_icon.png
+  artifactKey: Guid(77186c949fe9b45368e85d67bdca4525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/ByteGame/com.bytedance.starksdk/Icons/follow_icon.png using Guid(77186c949fe9b45368e85d67bdca4525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5645dbe6aa561a3895fb40f3f4dae77') in 0.015352 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.025155 seconds.
+  path: Assets/FingerSoccerKit/Resources/Fonts/slick.ttf
+  artifactKey: Guid(d6c9bfa88c6d2a048aa2ad467b7ba872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Resources/Fonts/slick.ttf using Guid(d6c9bfa88c6d2a048aa2ad467b7ba872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06b8b8729adabc2aa67f38d561a9bad6') in 0.052630 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/FingerSoccerKit/Textures/Backgrounds/gate-2.png
+  artifactKey: Guid(54969353b7c83d94b8f5c083455272d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Textures/Backgrounds/gate-2.png using Guid(54969353b7c83d94b8f5c083455272d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '231a0d97b95c1e2d10a0684225ccbfbc') in 0.006418 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a74911543dca26e5df5a89263c28e855') in 0.035278 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/FingerSoccerKit/Textures/Menu/medals.png
+  artifactKey: Guid(3605bca94d24e5d45ac6bead1c2a4e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Textures/Menu/medals.png using Guid(3605bca94d24e5d45ac6bead1c2a4e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '685c313ec62aff9e2f1304de34069622') in 0.009206 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/FingerSoccerKit/Textures/Backgrounds/menuBG.png
+  artifactKey: Guid(e05ebba609b15244a90317e094831c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Textures/Backgrounds/menuBG.png using Guid(e05ebba609b15244a90317e094831c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b87f79f49fb9e8d0eb2886eae714e1e') in 0.009093 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Plugins/ByteGame/com.bytedance.starksdk/Icons/official_icon_show.png
+  artifactKey: Guid(6218621b45782412eaafab13a2145835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/ByteGame/com.bytedance.starksdk/Icons/official_icon_show.png using Guid(6218621b45782412eaafab13a2145835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b857e335df04a50460d7108292e58757') in 0.007505 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Plugins/ByteGame/com.bytedance.starksdk/Icons/official_icon_about.png
+  artifactKey: Guid(0d28442e02ac34dd1ae96b16c36ff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/ByteGame/com.bytedance.starksdk/Icons/official_icon_about.png using Guid(0d28442e02ac34dd1ae96b16c36ff422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3e62d5c5b3fd436ed4d2e6d6eb4697e') in 0.007459 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plugins/ByteGame/com.bytedance.starksdk/Icons/official_icon_character.png
+  artifactKey: Guid(158829f7bd8114d9aae5efdebaef6750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/ByteGame/com.bytedance.starksdk/Icons/official_icon_character.png using Guid(158829f7bd8114d9aae5efdebaef6750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '532c40cfce7f64d011b1b6daf3782875') in 0.007037 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/FingerSoccerKit/Textures/UI/optionCell.png
+  artifactKey: Guid(dab98eb18c5e1554483765f05c7aac10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Textures/UI/optionCell.png using Guid(dab98eb18c5e1554483765f05c7aac10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68dfb5ebb100adc8a159de87798c4f12') in 0.007046 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/MIAOZIDONGMANTI-REGULAR SDF 1.asset
+  artifactKey: Guid(6fceb09176e8bfb44963c777edd07457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MIAOZIDONGMANTI-REGULAR SDF 1.asset using Guid(6fceb09176e8bfb44963c777edd07457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70ea1918dd1d3ed17167b525b3370b5e') in 0.045678 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/FingerSoccerKit/Textures/Menu/timeIcon.png
+  artifactKey: Guid(ca70a6f31a75ea144b6c36652662d9f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Textures/Menu/timeIcon.png using Guid(ca70a6f31a75ea144b6c36652662d9f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d7f3f695e985a453f29707f1b1ae547') in 0.006889 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/FingerSoccerKit/Textures/UI/平局.png
+  artifactKey: Guid(74ccb43026b39514e83de44ee63ec2eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Textures/UI/平局.png using Guid(74ccb43026b39514e83de44ee63ec2eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c0429cbddf7896cec01b6b21a8d37b0') in 0.006780 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/市场营销_ 媒体_ 运动员_ 社交的_ 视频_ 网站_ Yo_爱给网_aigei_com.png
+  artifactKey: Guid(e048ea4df34d26d48b3da7515a6b825a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/市场营销_ 媒体_ 运动员_ 社交的_ 视频_ 网站_ Yo_爱给网_aigei_com.png using Guid(e048ea4df34d26d48b3da7515a6b825a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eefd682df1d4688ec59fb4b2a7a74807') in 0.037778 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/FingerSoccerKit/Textures/UI/optionCell_big.png
+  artifactKey: Guid(ef911650063a8b44fa1be112115516b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Textures/UI/optionCell_big.png using Guid(ef911650063a8b44fa1be112115516b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a467338b34444e87c564248642a3079c') in 0.007127 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/FingerSoccerKit/Textures/Coins/money-01.png
+  artifactKey: Guid(5937a14c4fe444e40bd476d5cff9be9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Textures/Coins/money-01.png using Guid(5937a14c4fe444e40bd476d5cff9be9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd05d25438b9cf80ac620675dfc18a891') in 0.006898 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/FingerSoccerKit/Textures/Menu/menuOptions.png
+  artifactKey: Guid(fb3f609e7518b534d822d60812daed99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Textures/Menu/menuOptions.png using Guid(fb3f609e7518b534d822d60812daed99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54e274b48937f3481bd0b071a9d6f899') in 0.008589 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/FingerSoccerKit/Textures/UI/shopIcon.png
+  artifactKey: Guid(795e479787d39d54e87ee9e42f60ea46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Textures/UI/shopIcon.png using Guid(795e479787d39d54e87ee9e42f60ea46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c131ad3c9ab200822dd4809b62837d77') in 0.007966 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/FingerSoccerKit/Textures/UI/plusIcon.png
+  artifactKey: Guid(0701b060ab0850a41a772638ca9b00d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Textures/UI/plusIcon.png using Guid(0701b060ab0850a41a772638ca9b00d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d9cb36d4a664c66c1038761c3302e58') in 0.007547 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Plugins/ByteGame/com.bytedance.starksdk/Icons/official_icon_character2.png
+  artifactKey: Guid(22cb1e98db1f94cc288188e33e4e612e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/ByteGame/com.bytedance.starksdk/Icons/official_icon_character2.png using Guid(22cb1e98db1f94cc288188e33e4e612e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd80097f198e025b9848103259152366d') in 0.006686 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/FingerSoccerKit/Textures/UI/Tournament-diagram.png
+  artifactKey: Guid(c0c6c13151a663548997fe14d226e14c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Textures/UI/Tournament-diagram.png using Guid(c0c6c13151a663548997fe14d226e14c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65e9ac6b88be6b21b02ca5c89cf85cda') in 0.006732 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/FingerSoccerKit/Textures/Gfx/smokyRing.png
+  artifactKey: Guid(81e26da50a0fa1248bf7d4960e69554c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Textures/Gfx/smokyRing.png using Guid(81e26da50a0fa1248bf7d4960e69554c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa1326ddfdfbee7ba1f80543e438acdb') in 0.008316 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/FingerSoccerKit/Resources/Fonts/SLICKER.png
+  artifactKey: Guid(fad5988aba71d164d9c146fd38c2a464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Resources/Fonts/SLICKER.png using Guid(fad5988aba71d164d9c146fd38c2a464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b88b51205ef3bf8a9024dc7a91a7fa5') in 0.015933 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/FingerSoccerKit/Textures/UI/shopTeam-01.psd
+  artifactKey: Guid(c9cdf3340e8c6b043bfef6ed7a128ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Textures/UI/shopTeam-01.psd using Guid(c9cdf3340e8c6b043bfef6ed7a128ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d853e7c158fb308923857c408da455c') in 0.007803 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/FingerSoccerKit/Textures/UI/shopTeam-02.psd
+  artifactKey: Guid(dcc82eb1cd29ce14ca2fb1810e3406d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Textures/UI/shopTeam-02.psd using Guid(dcc82eb1cd29ce14ca2fb1810e3406d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b520f120e8f1a8dc380e7ad778c980e3') in 0.006428 seconds 
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

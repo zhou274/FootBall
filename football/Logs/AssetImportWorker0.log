@@ -1,0 +1,376 @@
+Using pre-set license
+Built from '2020.3/china_unity/release' branch; Version is '2021.3.41f1c1 (abf9ed549ceb) revision 11270637'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'zh' Physical Memory: 65375 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.41f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Unity/手指足球拉取/football
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51215
+Successfully changed project path to: D:/Unity/手指足球拉取/football
+D:/Unity/手指足球拉取/football
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [19664] Host "[IP] 192.168.31.197 [Port] 0 [Flags] 2 [Guid] 4197377170 [EditorId] 4197377170 [Version] 1048832 [Id] WindowsEditor(7,DS-202405191929) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [19664] Host "[IP] 192.168.31.197 [Port] 0 [Flags] 2 [Guid] 4197377170 [EditorId] 4197377170 [Version] 1048832 [Id] WindowsEditor(7,DS-202405191929) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+AS: AutoStreaming module initializing.
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 70.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.41f1c1 (abf9ed549ceb)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.41f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/手指足球拉取/football/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
+    Vendor:   NVIDIA
+    VRAM:     5969 MB
+    Driver:   31.0.15.4629
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.41f1c1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.41f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.41f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56196
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.41f1c1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.41f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.41f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.011372 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android SDK Build-tools component is not found. Make sure all tools are installed in the SDK manager.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.Android.AndroidSDKTools:UpdateToolsDirectories ()
+UnityEditor.Android.AndroidSDKTools:.ctor (string)
+UnityEditor.Android.AndroidSDKTools:CreateAndroidSDKTools (string)
+UnityEditor.Android.AndroidSDKTools:GetInstance<UnityEditor.Android.AndroidSDKTools> (UnityEditor.Android.AndroidSDKTools/InstanceCreator)
+UnityEditor.Android.AndroidSDKTools:GetInstance ()
+UnityEditor.Android.AndroidDeploymentTargetsExtension:GetMainThreadContext (bool)
+UnityEditor.Android.TargetExtension:OnUsbDevicesChanged (UnityEditor.Hardware.UsbDevice[])
+UnityEditor.Android.TargetExtension:OnLoad ()
+UnityEditor.Modules.ModuleManager:InitializePlatformSupportModules ()
+
+An ADB process has shut down when we were accessing it, the following System.ArgumentException has been thrown: The specified path is not of a legal form (empty)..
+InvalidOperationException: Cannot start process because a file name has not been provided.
+  at System.Diagnostics.Process.Start () [0x00024] in <a3c32f2a832547c1bce7833b919abc42>:0 
+  at (wrapper remoting-invoke-with-check) System.Diagnostics.Process.Start()
+  at UnityEditor.Android.ProgramAsShellExecute.Start (System.Diagnostics.ProcessStartInfo psi) [0x0000e] in <ab639f04fe68482e8095b4649da26631>:0 
+  at UnityEditor.Android.Command.RunWithShellExecute (System.String command, System.String args, System.String workingdir, System.String errorMsg) [0x0003e] in <ab639f04fe68482e8095b4649da26631>:0 
+  at UnityEditor.Android.ADB.StartServer () [0x00013] in <ab639f04fe68482e8095b4649da26631>:0 
+  at UnityEditor.Android.ADB.Run (System.String[] command, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x0000b] in <ab639f04fe68482e8095b4649da26631>:0 
+  at UnityEditor.Android.AndroidDeploymentTargetsExtension.GetKnownTargets (UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext context, UnityEditor.ProgressHandler progressHandler) [0x002ae] in <ab639f04fe68482e8095b4649da26631>:0 
+  at UnityEditor.Android.TargetScanWorker.ScanSync () [0x00039] in <ab639f04fe68482e8095b4649da26631>:0 
+  at UnityEditor.Android.TargetExtension.OnUsbDevicesChanged (UnityEditor.Hardware.UsbDevice[] usbDevices) [0x00081] in <ab639f04fe68482e8095b4649da26631>:0 
+  at UnityEditor.Android.TargetExtension.OnLoad () [0x0008d] in <ab639f04fe68482e8095b4649da26631>:0 
+  at UnityEditor.Modules.ModuleManager.InitializePlatformSupportModules () [0x0009d] in <814ad583114542d98f219069942d9500>:0 
+
+Refreshing native plugins compatible for Editor in 79.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.049 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1050ms)
+		BeginReloadAssembly (143ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (757ms)
+			LoadAssemblies (139ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (159ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (494ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (187ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (80ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (156ms)
+				ProcessInitializeOnLoadMethodAttributes (69ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Registering precompiled user dll's ...
+Registered in 0.010449 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.979 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1980ms)
+		BeginReloadAssembly (185ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (1628ms)
+			LoadAssemblies (136ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (415ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (978ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (32ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (778ms)
+				ProcessInitializeOnLoadMethodAttributes (62ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3151 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (46.5 KB). Loaded Objects now: 3634.
+Memory consumption went from 120.4 MB to 120.3 MB.
+Total: 3.795300 ms (FindLiveObjects: 0.358400 ms CreateObjectMapping: 0.174000 ms MarkObjects: 3.164500 ms  DeleteObjects: 0.097400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 8960.758138 seconds.
+  path: Assets/FingerSoccerKit/Materials/Menu/btnImg-02.mat
+  artifactKey: Guid(35019587110c0a547bac12e781b5b87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Materials/Menu/btnImg-02.mat using Guid(35019587110c0a547bac12e781b5b87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fecc88a62f91dc6c8fa22b5c3b9e7d1') in 0.115349 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/FingerSoccerKit/Materials/Menu/cellBG-03.mat
+  artifactKey: Guid(27da2e7e5ebe19a4587b5e603c46d030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Materials/Menu/cellBG-03.mat using Guid(27da2e7e5ebe19a4587b5e603c46d030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7be3471388d4adf02a022870d4676ae7') in 0.010533 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/FingerSoccerKit/Materials/Menu/Btn-01.mat
+  artifactKey: Guid(52f296a63f488584bae0969d90a1f837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Materials/Menu/Btn-01.mat using Guid(52f296a63f488584bae0969d90a1f837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7280f59f1f11bb796bbec7d860ff331f') in 0.010311 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/FingerSoccerKit/Materials/Menu/btnImg-03.mat
+  artifactKey: Guid(fb53116e921fb2e42b78bc78b1670bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Materials/Menu/btnImg-03.mat using Guid(fb53116e921fb2e42b78bc78b1670bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0305556bdaf81455622753b50502639') in 0.010449 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/FingerSoccerKit/Materials/Ball/Ball-02.mat
+  artifactKey: Guid(919e80571c6b3b34499f5fcd111e4649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Materials/Ball/Ball-02.mat using Guid(919e80571c6b3b34499f5fcd111e4649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e94630ee44375e828d4ec3061d56f2f9') in 0.007727 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/FingerSoccerKit/Materials/Menu/BuyFormaion.mat
+  artifactKey: Guid(0faf2959dd034bb4881b04be9cd23a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Materials/Menu/BuyFormaion.mat using Guid(0faf2959dd034bb4881b04be9cd23a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa5e158b875b8279f6a10b1500b6c79a') in 0.013234 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/FingerSoccerKit/Materials/Menu/btnImg-04.mat
+  artifactKey: Guid(7d06a2d5e10cc5a419588bf3fe9733e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Materials/Menu/btnImg-04.mat using Guid(7d06a2d5e10cc5a419588bf3fe9733e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cde80d4040a7a50d17d3719b709ddf19') in 0.007715 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/FingerSoccerKit/Materials/Tournament/Cup.mat
+  artifactKey: Guid(93b2713f425560648afab0ba42130ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Materials/Tournament/Cup.mat using Guid(93b2713f425560648afab0ba42130ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02dcb1fa54905d9815705d66363d7130') in 0.008923 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/FingerSoccerKit/Materials/Menu/Btn-04.mat
+  artifactKey: Guid(893fdbb80b5b0cb4c8b955f3d1f48c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Materials/Menu/Btn-04.mat using Guid(893fdbb80b5b0cb4c8b955f3d1f48c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f112d5376c4913fda5cf4fcf1f75072f') in 0.010099 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/FingerSoccerKit/Materials/Menu/coinPack-03.mat
+  artifactKey: Guid(efaf1aebd83736741a5899b8ac372083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Materials/Menu/coinPack-03.mat using Guid(efaf1aebd83736741a5899b8ac372083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9461303945189bc425b0b6d7a7f5a430') in 0.010058 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/FingerSoccerKit/Materials/Menu/cellBG-02.mat
+  artifactKey: Guid(71e1b38b68b410e4c9615551e306c2e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Materials/Menu/cellBG-02.mat using Guid(71e1b38b68b410e4c9615551e306c2e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a768b2585ec59927ed3b2072e14859e1') in 0.011029 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/FingerSoccerKit/Materials/Tournament/BtnExit.mat
+  artifactKey: Guid(4e58e7c81d25c4d45a8db6db0be6db51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Materials/Tournament/BtnExit.mat using Guid(4e58e7c81d25c4d45a8db6db0be6db51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '162455306cb3e73bb6e17350733367c2') in 0.011678 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/FingerSoccerKit/Materials/Menu/btnImg-01.mat
+  artifactKey: Guid(97eec090b77a08a488ee5f9af8529228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Materials/Menu/btnImg-01.mat using Guid(97eec090b77a08a488ee5f9af8529228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7172e007a6562236d87dd2a890017fa') in 0.009364 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/FingerSoccerKit/Materials/Tournament/BtnStart.mat
+  artifactKey: Guid(d0d9d075614836b49b3c8851611783c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Materials/Tournament/BtnStart.mat using Guid(d0d9d075614836b49b3c8851611783c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5d56484e7bef2f20097b9367c38298f') in 0.008000 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/FingerSoccerKit/Materials/Menu/cellBG-04.mat
+  artifactKey: Guid(f42b70ef8f705c440949aed31298da31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Materials/Menu/cellBG-04.mat using Guid(f42b70ef8f705c440949aed31298da31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd28e6493d08b621c5ddeb6f6435fe1c3') in 0.010373 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 46.069341 seconds.
+  path: Assets/FingerSoccerKit/Materials/Menu/shopTeam-01.mat
+  artifactKey: Guid(e3fce4fe18a13fc43ad4e1235cb98f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Materials/Menu/shopTeam-01.mat using Guid(e3fce4fe18a13fc43ad4e1235cb98f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0fa447c236a6c053af153542b2887f5') in 0.011994 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/FingerSoccerKit/Resources/Fonts/SLICKER-Blue.mat
+  artifactKey: Guid(63b8c25eeb099c14798db4f7172a7d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Resources/Fonts/SLICKER-Blue.mat using Guid(63b8c25eeb099c14798db4f7172a7d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a40b35adfdfb6695c6cb41ec70cb5471') in 0.044553 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.361673 seconds.
+  path: Assets/FingerSoccerKit/Materials/Gfx/Star-03.mat
+  artifactKey: Guid(6eb49a7b722e9b24fb48918314b317fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Materials/Gfx/Star-03.mat using Guid(6eb49a7b722e9b24fb48918314b317fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a48388aefe21a96d87ebfc9bf5a595b1') in 0.016322 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.341475 seconds.
+  path: Assets/FingerSoccerKit/Materials/Tournament/Team-05.mat
+  artifactKey: Guid(1961821940f73f54698b8b5df64fc280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Materials/Tournament/Team-05.mat using Guid(1961821940f73f54698b8b5df64fc280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05bdffa4f6de069a70f72ddb60b5b073') in 0.016144 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.185941 seconds.
+  path: Assets/FingerSoccerKit/Materials/Menu/TeamCongif.mat
+  artifactKey: Guid(1fd2ca51a8882a74b914ebab4f61e78c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Materials/Menu/TeamCongif.mat using Guid(1fd2ca51a8882a74b914ebab4f61e78c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd126477dc773057c85d5b5b09b4ba90a') in 0.018453 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 3.710330 seconds.
+  path: Assets/FingerSoccerKit/Materials/PenaltyKicks/Score-Out.mat
+  artifactKey: Guid(9944bb1c73d51d440afc70a3bae1846f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FingerSoccerKit/Materials/PenaltyKicks/Score-Out.mat using Guid(9944bb1c73d51d440afc70a3bae1846f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b88755e60ca2b672f54f32848d77101') in 0.013078 seconds 
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
