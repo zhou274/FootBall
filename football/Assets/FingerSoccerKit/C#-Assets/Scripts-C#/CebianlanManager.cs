@@ -1,4 +1,4 @@
-using StarkSDKSpace;
+ï»¿using StarkSDKSpace;
 using System.Collections;
 using System.Collections.Generic;
 using TTSDK.UNBridgeLib.LitJson;
@@ -8,7 +8,7 @@ using static StarkSDKSpace.StarkGridGamePanelManager;
 
 public class CebianlanManager : MonoBehaviour
 {
-    // Start is called before the first frame update
+    //tt8aeffc5215db6d6b02
     public GameObject CebainlanUI;
     public string clickid;
     private StarkGridGamePanelManager mStarkGridGamePanelManager;
@@ -17,40 +17,41 @@ public class CebianlanManager : MonoBehaviour
     private void Start()
     {
 
-        if (!PlayerPrefs.HasKey("FirstStart"))
-        {
-            // Ö´ÐÐÊ×´ÎÆô¶¯Ê±µÄ²Ù×÷
-            Debug.Log("Ê×´ÎÆô¶¯Ó¦ÓÃ³ÌÐò");
-
-            // ÔÚÕâÀïÌí¼ÓÄãÐèÒªÔÚÊ×´ÎÆô¶¯Ê±Ö´ÐÐµÄ´úÂë
-
-            // ÉèÖÃ¼ü"FirstStart"£¬±íÊ¾²»ÊÇÊ×´ÎÆô¶¯ÁË
-            PlayerPrefs.SetInt("FirstStart", 1);
-            PlayerPrefs.Save(); // È·±£±£´æÉèÖÃ
-            CebainlanUI.SetActive(true);
-        }
-        else
-        {
-            Debug.Log("²»ÊÇÊ×´ÎÆô¶¯Ó¦ÓÃ³ÌÐò");
-            CebainlanUI.SetActive(false);
-        }
 
 
 
+        //if (!PlayerPrefs.HasKey("FirstStart"))
+        //{
+        //    // Ö´ï¿½ï¿½ï¿½×´ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½Ä²ï¿½ï¿½ï¿½
+        //    Debug.Log("ï¿½×´ï¿½ï¿½ï¿½ï¿½ï¿½Ó¦ï¿½Ã³ï¿½ï¿½ï¿½");
+
+        //    // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½×´ï¿½ï¿½ï¿½ï¿½ï¿½Ê±Ö´ï¿½ÐµÄ´ï¿½ï¿½ï¿½
+
+        //    // ï¿½ï¿½ï¿½Ã¼ï¿½"FirstStart"ï¿½ï¿½ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½ï¿½×´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+        //    PlayerPrefs.SetInt("FirstStart", 1);
+        //    PlayerPrefs.Save(); // È·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+        //    CebainlanUI.SetActive(true);
+        //}
+        //else
+        //{
+        //    Debug.Log("ï¿½ï¿½ï¿½ï¿½ï¿½×´ï¿½ï¿½ï¿½ï¿½ï¿½Ó¦ï¿½Ã³ï¿½ï¿½ï¿½");
+        //    CebainlanUI.SetActive(false);
+        //}
 
 
-        clickid = "";
+        //clickid = "";
 
 
-        getClickid();
+        //getClickid();
 
 
-        Debug.Log("<-clickid-> " + clickid);
+        //Debug.Log("<-clickid-> " + clickid);
 
-        apiSend("active", clickid);
-
+        //apiSend("active", clickid);
 
         showGridGame();
+
+        //CancelPan();
     }
 
     public void showGridGame()
@@ -61,7 +62,7 @@ public class CebianlanManager : MonoBehaviour
             JsonData query = new JsonData();
             query["tt8aeffc5215db6d6b02"] = "";
             JsonData position = new JsonData();
-            position["top"] = 80;
+            position["top"] = 150;
             position["left"] = 30;
             StarkGridGamePanel mStarkGridGamePanel = mStarkGridGamePanelManager.CreateGridGamePanel(GridGamePanelCount.One, query, GridGamePanelSize.Large, position);
             mStarkGridGamePanel.Show();
@@ -77,7 +78,7 @@ public class CebianlanManager : MonoBehaviour
             foreach (KeyValuePair<string, string> kv in launchOpt.Query)
                 if (kv.Value != null)
                 {
-                    Debug.Log(kv.Key + "<-²ÎÊý-> " + kv.Value);
+                    Debug.Log(kv.Key + "<-ï¿½ï¿½ï¿½ï¿½-> " + kv.Value);
                     if (kv.Key.ToString() == "clickid")
                     {
                         clickid = kv.Value.ToString();
@@ -85,7 +86,7 @@ public class CebianlanManager : MonoBehaviour
                 }
                 else
                 {
-                    Debug.Log(kv.Key + "<-²ÎÊý-> " + "null ");
+                    Debug.Log(kv.Key + "<-ï¿½ï¿½ï¿½ï¿½-> " + "null ");
                 }
         }
     }
@@ -95,6 +96,8 @@ public class CebianlanManager : MonoBehaviour
         TTRequest.InnerOptions options = new TTRequest.InnerOptions();
         options.Header["content-type"] = "application/json";
         options.Method = "POST";
+        options.DataType = "JSON";
+        options.ResponseType = "text";
 
         JsonData data1 = new JsonData();
 
@@ -117,8 +120,11 @@ public class CebianlanManager : MonoBehaviour
         CebainlanUI.SetActive(false);
     }
 
-    public void OkPan()
+    public void OkPan1()
     {
+
+        Debug.Log("=--OkPan--");
+
         CebainlanUI.SetActive(false);
 
         TT.InitSDK((code, env) =>

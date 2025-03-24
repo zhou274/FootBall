@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/FingerSoccerKit/C#-Assets/Scenes-C#/LoadScene.unity
+    guid: 0e9eb603eb9471549add81298275748f
+  - enabled: 1
     path: Assets/FingerSoccerKit/C#-Assets/Scenes-C#/Menu-c#.unity
     guid: dd8968adaa6e57843886d49890d6a2e8
   - enabled: 1

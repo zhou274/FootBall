@@ -1,4 +1,4 @@
-using UnityEngine;
+锘縰sing UnityEngine;
 using System.Collections;
 using UnityEngine.SceneManagement;
 using TMPro;
@@ -139,12 +139,12 @@ public class MoneyController : MonoBehaviour {
                 }
                 else
                 {
-                    StarkSDKSpace.AndroidUIManager.ShowToast("观看完整视频才能获取奖励哦！");
+                    StarkSDKSpace.AndroidUIManager.ShowToast("瑙傜湅瀹屾暣瑙嗛鎵嶈兘鑾峰彇濂栧姳鍝︼紒");
                 }
             },
             (it, str) => {
                 Debug.LogError("Error->" + str);
-                //AndroidUIManager.ShowToast("广告加载异常，请重新看广告！");
+                //AndroidUIManager.ShowToast("骞垮憡鍔犺浇寮傚父锛岃閲嶆柊鐪嬪箍鍛婏紒");
             });
                     yield return new WaitForSeconds(1.5f);
                     SceneManager.LoadScene(SceneManager.GetActiveScene().name);
@@ -210,6 +210,8 @@ public class MoneyController : MonoBehaviour {
         TTRequest.InnerOptions options = new TTRequest.InnerOptions();
         options.Header["content-type"] = "application/json";
         options.Method = "POST";
+        options.DataType = "JSON";
+        options.ResponseType = "text";
 
         JsonData data1 = new JsonData();
 
@@ -249,7 +251,7 @@ public class MoneyController : MonoBehaviour {
             foreach (KeyValuePair<string, string> kv in launchOpt.Query)
                 if (kv.Value != null)
                 {
-                    Debug.Log(kv.Key + "<-参数-> " + kv.Value);
+                    Debug.Log(kv.Key + "<-锟斤拷锟斤拷-> " + kv.Value);
                     if (kv.Key.ToString() == "clickid")
                     {
                         clickid = kv.Value.ToString();
@@ -257,7 +259,7 @@ public class MoneyController : MonoBehaviour {
                 }
                 else
                 {
-                    Debug.Log(kv.Key + "<-参数-> " + "null ");
+                    Debug.Log(kv.Key + "<-锟斤拷锟斤拷-> " + "null ");
                 }
         }
     }

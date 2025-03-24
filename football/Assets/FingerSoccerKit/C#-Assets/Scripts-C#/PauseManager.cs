@@ -1,4 +1,4 @@
-using UnityEngine;
+锘縰sing UnityEngine;
 using System.Collections;
 using UnityEngine.SceneManagement;
 using StarkSDKSpace;
@@ -126,12 +126,12 @@ public class PauseManager : MonoBehaviour {
                 }
                 else
                 {
-                    StarkSDKSpace.AndroidUIManager.ShowToast("观看完整视频才能获取奖励哦！");
+                    StarkSDKSpace.AndroidUIManager.ShowToast("瑙傜湅瀹屾暣瑙嗛鎵嶈兘鑾峰彇濂栧姳鍝︼紒");
                 }
             },
             (it, str) => {
                 Debug.LogError("Error->" + str);
-                //AndroidUIManager.ShowToast("广告加载异常，请重新看广告！");
+                //AndroidUIManager.ShowToast("骞垮憡鍔犺浇寮傚父锛岃閲嶆柊鐪嬪箍鍛婏紒");
             });
                         
 						break;
@@ -179,7 +179,7 @@ public class PauseManager : MonoBehaviour {
 
 
 	/// <summary>
-	/// 播放插屏广告
+	/// 鎾斁鎻掑睆骞垮憡
 	/// </summary>
 	/// <param name="adId"></param>
 	/// <param name="errorCallBack"></param>
@@ -214,7 +214,7 @@ public class PauseManager : MonoBehaviour {
             foreach (KeyValuePair<string, string> kv in launchOpt.Query)
                 if (kv.Value != null)
                 {
-                    Debug.Log(kv.Key + "<-参数-> " + kv.Value);
+                    Debug.Log(kv.Key + "<-锟斤拷锟斤拷-> " + kv.Value);
                     if (kv.Key.ToString() == "clickid")
                     {
                         clickid = kv.Value.ToString();
@@ -222,7 +222,7 @@ public class PauseManager : MonoBehaviour {
                 }
                 else
                 {
-                    Debug.Log(kv.Key + "<-参数-> " + "null ");
+                    Debug.Log(kv.Key + "<-锟斤拷锟斤拷-> " + "null ");
                 }
         }
     }
@@ -232,6 +232,8 @@ public class PauseManager : MonoBehaviour {
         TTRequest.InnerOptions options = new TTRequest.InnerOptions();
         options.Header["content-type"] = "application/json";
         options.Method = "POST";
+        options.DataType = "JSON";
+        options.ResponseType = "text";
 
         JsonData data1 = new JsonData();
 

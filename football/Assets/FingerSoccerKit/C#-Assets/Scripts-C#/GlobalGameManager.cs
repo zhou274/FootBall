@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
 using System.Linq;
 using System.Collections.Generic;
@@ -20,9 +20,9 @@ public class GlobalGameManager : MonoBehaviour {
 	/// You can do this with RigidBody's freeze position.
 	///*************************************************************************///
 
-	public static string player1Name = "���1";
-	public static string player2Name = "���2";
-	public static string cpuName = "����";
+	public static string player1Name = "玩家1";
+	public static string player2Name = "玩家2";
+	public static string cpuName = "电脑";
 
 
 	//You are free tp change these positions at any time to customize the location of each element
@@ -592,10 +592,19 @@ public class GlobalGameManager : MonoBehaviour {
 		print("GAME IS FINISHED.");
 		
 		//show gameStatusPlane
+		//游戏结束
 		gameStatusPlane.SetActive(true);
-		
-		//for single player game, we should give the player some bonuses in case of winning the match
-		if(gameMode == 0) {
+        ShowInterstitialAd("9i5a42ijd18g2482d4",
+            () => {
+                Debug.LogError("--插屏广告完成--");
+
+            },
+            (it, str) => {
+                Debug.LogError("Error->" + str);
+            });
+
+        //for single player game, we should give the player some bonuses in case of winning the match
+        if (gameMode == 0) {
 			if(playerGoals > goalLimit || playerGoals > opponentGoals) {
 				print("Player 1 is the winner!!");
 				
@@ -677,8 +686,82 @@ public class GlobalGameManager : MonoBehaviour {
 			GetComponent<AudioSource>().Play();
 		}
 	}
+    /// <summary>
+    /// 播放插屏广告
+    /// </summary>
+    /// <param name="adId"></param>
+    /// <param name="errorCallBack"></param>
+    /// <param name="closeCallBack"></param>
+    public void ShowInterstitialAd(string adId, System.Action closeCallBack, System.Action<int, string> errorCallBack)
+    {
+        starkAdManager = StarkSDK.API.GetStarkAdManager();
+        if (starkAdManager != null)
+        {
+            var mInterstitialAd = starkAdManager.CreateInterstitialAd(adId, errorCallBack, closeCallBack);
+            mInterstitialAd.Load();
+            mInterstitialAd.Show();
+        }
+    }
+    public void getClickid()
+    {
+        var launchOpt = StarkSDK.API.GetLaunchOptionsSync();
+        if (launchOpt.Query != null)
+        {
+            foreach (KeyValuePair<string, string> kv in launchOpt.Query)
+                if (kv.Value != null)
+                {
+                    Debug.Log(kv.Key + "<-����-> " + kv.Value);
+                    if (kv.Key.ToString() == "clickid")
+                    {
+                        clickid = kv.Value.ToString();
+                    }
+                }
+                else
+                {
+                    Debug.Log(kv.Key + "<-����-> " + "null ");
+                }
+        }
+    }
+
+    public void apiSend(string eventname, string clickid)
+    {
+        TTRequest.InnerOptions options = new TTRequest.InnerOptions();
+        options.Header["content-type"] = "application/json";
+        options.Method = "POST";
+        options.DataType = "JSON";
+        options.ResponseType = "text";
+
+        JsonData data1 = new JsonData();
+
+        data1["event_type"] = eventname;
+        data1["context"] = new JsonData();
+        data1["context"]["ad"] = new JsonData();
+        data1["context"]["ad"]["callback"] = clickid;
+
+        Debug.Log("<-data1-> " + data1.ToJson());
+
+        options.Data = data1.ToJson();
+
+        TT.Request("https://analytics.oceanengine.com/api/v2/conversion", options,
+           response => { Debug.Log(response); },
+           response => { Debug.Log(response); });
+    }
 
 
-    
+    /// <summary>
+    /// </summary>
+    /// <param name="adId"></param>
+    /// <param name="closeCallBack"></param>
+    /// <param name="errorCallBack"></param>
+    public void ShowVideoAd(string adId, System.Action<bool> closeCallBack, System.Action<int, string> errorCallBack)
+    {
+        starkAdManager = StarkSDK.API.GetStarkAdManager();
+        if (starkAdManager != null)
+        {
+            starkAdManager.ShowVideoAdWithId(adId, closeCallBack, errorCallBack);
+        }
+    }
+
+
 
 }
